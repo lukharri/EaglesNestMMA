@@ -2,30 +2,109 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+<div class="hero">
+    <img id="hands" src="~/Content/Images/hands2.png" />
+    <p class="hero-text">On the streets you fight <br /> to live...in the cage you<br /> live to fight again.</p>
 </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+<div class="section-one">
+    <ul class="section-one-ul">
+        <li><p id="welcome-title">WELCOME TO EAGLE'S NEST</p></li>
+        <li><div id="home-s2-line" class="horizontal-dashed-red"></div> </li>
+        <li>
+            <p class="welcome-text">
+                Eagle's Nest was born of necessity and shaped by determination. We were a group of kickboxers and grapplers <br />
+                without direction, and have now evolved into a well rounded team that competes world wide in kickboxing, MMA, <br />
+                jiu-jitsu, and karate. We have even gone further by implementing a strength and conditioning program as well as nutritional<br />
+                coaching for the highest level of atheletic performance. Our aim is to encourage individuals and families to lead healthier <br />
+                lifestyles, and to assis them in raching their martial arts and fitness related goals. We seek to touch the lives of as many <br />
+                individuals as possible with the positive benefits of the martial arts.
+            </p>
+        </li>
+    </ul>
+</div>
+
+<div class="section-two">
+    <div class="martial-arts">
+        <h2 class="section-header" id="ma-header">MARTIAL ARTS</h2>
+        <hr class="hr-dashed-red" />
+        <ul class="content-list">
+            <li>
+                <div class="red-circle">
+                    <div class="circle-image">
+                        <img id="inner-img" src="~/Content/Images/mmaFighter.jpg" />
+                    </div>
+                </div>
+                <p class="section-text" id="MMA">MMA</p>
+            </li>
+            <li>
+                <div class="red-circle">
+                    <div class="circle-image">
+                        <img id="inner-img" src="~/Content/Images/boxer.jpg" />
+                    </div>
+                </div>
+                <p class="section-text" id="kb">Kickboxing & Boxing</p>
+            </li>
+            <li>
+                <div class="red-circle">
+                    <div class="circle-image">
+                        <img id="inner-img" src="~/Content/Images/bjj.jpg" />
+                    </div>
+                </div>
+                <p class="section-text" id="jj">Jiu-Jitsu</p>
+            </li>
+            <li>
+                <div class="red-circle">
+                    <div class="circle-image">
+                        <img id="inner-img" src="~/Content/Images/girlKarate.jpg" />
+                    </div>
+                </div>
+                <p class="section-text" id="kids">Kids Program</p>
+            </li>
+        </ul>
+        <hr class="hr-dashed-red-long" id="s2-hr2" />
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+
+    <div class="fitness-nutrition">
+        <h2 class="section-header" id="fn-header">FITNESS & NUTRITION</h2>
+        <hr class="hr-dashed-red" />
+        <ul class="content-list" id="fn-list">
+            <li>
+                <div class="red-circle">
+                    <div class="circle-image">
+                        <img id="inner-img" src="~/Content/Images/strength.jpg" />
+                    </div>
+                </div>
+                <p class="section-text" id="fitness">Fitness Classes</p>
+            </li>
+            <li>
+                <div class="red-circle">
+                    <div class="circle-image">
+                        <img id="inner-img" src="~/Content/Images/healthy-eating-diet.jpg" />
+                    </div>
+                </div>
+                <p class="section-text" id="nutrition">Nutrition</p>
+            </li>
+        </ul>
+        <hr class="hr-dashed-red-long" />
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+
+    <div class="apparel">
+        <h2 class="section-header" id="apparel-header">APPAREL</h2>
+        <hr class="hr-dashed-red" />
+        <ul class="content-list" id="ap-list">
+            <li>
+                <div class="red-circle">
+                    <div class="circle-image">
+                        <img id="inner-img" src="~/Content/Images/longSleeveTee.jpg" />
+                    </div>
+                </div>
+                <p class="section-text" id="gym-apparel-text">Gym Apparel</p>
+            </li>
+        </ul>
+        <hr class="hr-dashed-red-long" />
+
     </div>
 </div>
+
+
