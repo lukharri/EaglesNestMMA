@@ -173,6 +173,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -182,6 +183,34 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\bjj.jpg" />
+    <Content Include="Content\Images\blackWaves.jpg" />
+    <Content Include="Content\Images\boxer.jpg" />
+    <Content Include="Content\Images\chin up.jpg" />
+    <Content Include="Content\Images\download.jpeg" />
+    <Content Include="Content\Images\EaglesNestLogo.jpg" />
+    <Content Include="Content\Images\EaglesNestLogo1.png" />
+    <Content Include="Content\Images\girlKarate.jpg" />
+    <Content Include="Content\Images\granite.jpg" />
+    <Content Include="Content\Images\granite2.jpg" />
+    <Content Include="Content\Images\hands.jpg" />
+    <Content Include="Content\Images\healthy-eating-diet.jpg" />
+    <Content Include="Content\Images\jiuJitsu.jpg" />
+    <Content Include="Content\Images\karate.jpg" />
+    <Content Include="Content\Images\karate2.png" />
+    <Content Include="Content\Images\kb.jpg" />
+    <Content Include="Content\Images\kidKarate.jpg" />
+    <Content Include="Content\Images\logo.png" />
+    <Content Include="Content\Images\longSleeveTee.jpg" />
+    <Content Include="Content\Images\mmaFighter.jpg" />
+    <Content Include="Content\Images\slate.jpg" />
+    <Content Include="Content\Images\strength.jpg" />
+    <Content Include="Content\Images\tanBackground.jpg" />
+    <Content Include="Content\Images\vegetable.jpg" />
+    <Content Include="Content\Images\yoga.jpg" />
+    <Content Include="Content\Images\yoga2.jpg" />
+    <Content Include="Content\Images\yoga3.jpg" />
+    <Content Include="Content\Images\yogasun.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

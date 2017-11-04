@@ -9,7 +9,41 @@
 
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-collapse collapse">
+                <div id="header-content-container">
+                    <div class="header-div business-name"><h1 id="business-name">Eagle's Nest MMA <br /> Training and Fitness</h1></div>
+                    <div class="header-div business-logo"><img id="eagle-logo" src="~/Content/Images/EaglesNestLogo1.png" /></div>
+                    <ul class="nav navbar-nav" id="header-list">
+                        <li class="header-link">@Html.ActionLink("HOME", "Index", "Home")</li>
+                        <li><div class="header-pipe"></div></li>
+                        <li class="header-link">@Html.ActionLink("ABOUT US", "About", "Home")</li>
+                        <li><div class="header-pipe"></div></li>
+                        <li class="header-link">@Html.ActionLink("CLASSES", "Classes", "Home")</li>
+                        <li><div class="header-pipe"></div></li>
+                        <li class="header-link">@Html.ActionLink("SCHEDULE", "Schedule", "Home")</li>
+                        <li><div class="header-pipe"></div></li>
+                        <li class="header-link">@Html.ActionLink("TESTIMONIALS", "Testimonials", "Home")</li>
+                        <li><div class="header-pipe"></div></li>
+                        <li class="header-link">
+                            <div class="dropdown">
+                                <button class="dropbtn">MORE</button>
+                                <div class="dropdown-content">
+                                    <p>@Html.ActionLink("SPONSORS", "Sponsors", "Home")</p>
+                                    <p>@Html.ActionLink("CONTACT", "Contact", "Home")</p>
+                                    <p>@Html.ActionLink("REGISTER", "Register", "Account")</p>
+                                    <p>@Html.ActionLink("LOGIN", "Login", "Account")</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @*<div class="navbar">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -28,7 +62,8 @@
                 @Html.Partial("_LoginPartial")
             </div>
         </div>
-    </div>
+    </div>*@
+
     <div class="container body-content">
         @RenderBody()
         <hr />

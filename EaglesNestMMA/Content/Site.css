@@ -1,24 +1,218 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
+﻿body { }
+/** {border: 1px solid red;}*/
 
 /* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
+.body-content { padding-left: 15px; padding-right: 15px; }
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
-.dl-horizontal dt {
-    white-space: normal;
-}
+.dl-horizontal dt { white-space: normal;}
 
 /* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+input, select, textarea { max-width: 280px;}
+
+
+/************************** HEADER ********************************/
+/******************************************************************/
+.navbar { margin-bottom: 0px; border-radius: 0px; }
+.navbar-inverse .navbar-nav > li > a { color: white; }
+.navbar-inverse .navbar-nav > li > a:hover { color: black; }
+.navbar-inverse { background-color: #A5050F; border-color: #A5050F; height: 237px; position: relative; }
+.nav .navbar-nav { text-align: justify;}
+.navbar-inverse .navbar-nav > li { margin-left: 20px; font-size: 16px;}
+.container { height: 237px; }
+
+.header-pipe { margin-top: 13px; height: 25px; color: white; border-left: solid; }
+.header-div {width: 400px;}
+.business-name { margin-left: 100px; margin-top: 48px;}
+.business-logo { position: relative; left: 520px; top: -140px;}
+
+#business-name { font-weight: bolder; color: black; font-family: 'Segoe UI'; }
+#eagle-logo { height: 120px; width: 375px; margin-left: 30px; margin-top: 20px;}
+#header-list { margin-top: -120px; margin-left: 70px; }
+#header-content-container { margin: 40px; }
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #A5050F;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
 }
+
+.dropbtn:hover { color: black;}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown { position: relative; display: inline-block; }
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: solid 8px #A5050F;
+    border-radius: 2px;
+}
+
+/*** Links inside the dropdown ***/
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover { color: #A5050F; }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content { display: block; }
+
+
+/************************** HERO ****************************************/
+/************************************************************************/
+
+.hero { position: relative;
+        background-image: url(/Content/Images/hands.jpg); 
+        opacity: .95;
+        height: 1090px;
+        width: 200%; 
+        left: -470px; 
+        top: -420px; }
+
+/*.hero-image { max-width: 160%; height: auto; }*/
+
+.hero-text {     
+    position: absolute;
+    left: 620px;
+    top: 420px;
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/************************** SECTION 1 ****************************************/
+/*****************************************************************************/
+
+.section-one { 
+    background-image: url(/Content/Images/blackWaves.jpg);  
+    position: relative;
+    height: 270px;
+    width: 180%;
+    left: -360px;
+    top: -690px;
+}
+
+.section-one-ul { list-style-type: none; margin-left: 450px; padding: 35px;}
+#home-s2-line { margin-top: -10px; margin-bottom: 20px;}
+.section-header { color: #A5050F; font-size: 28px; position: relative; left: 570px; top: 70px;}
+
+.hr-dashed-red { border-bottom: dashed 1px #A5050F; width: 500px; position: relative; top: 70px;}
+.hr-dashed-red-long { border-bottom: dashed 1px #A5050F; width: 1040px; position: relative; top: 120px;}
+
+#welcome-title { color: #A5050F; font-size: 28px; }
+.welcome-text { color: white; font-size: 16px;}
+
+
+/************************** SECTION 2 ****************************************/
+/*****************************************************************************/
+
+.section-two {
+    background-image: url(/Content/Images/tanBackground.jpg);
+    position: relative;
+    height: 1340px;
+    width: 1360px;
+    top: -710px;
+    left: -110px;
+}
+
+.red-circle {
+    height: 195px;
+    width: 195px;
+    border: solid 1px #A5050F;
+    border-radius: 97.5px;
+    padding: 6.95px;
+}
+
+.circle-image {
+    height: 180px;
+    width: 180px;
+    border: solid 15px #A5050F;
+    border-radius: 90px;
+}
+
+#inner-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+.content-list {
+    list-style-type: none;
+    position: relative;
+    left: 110px;
+    top: 85px;
+}
+
+.content-list li {
+    float: left;
+    margin-right: 90px;
+}
+
+.section-text { 
+    font-size: 18px; 
+    color: black; 
+    position: relative;
+    top: 15px;
+}
+
+/************************** MARTIAL ARTS *****************/
+
+#MMA { left: 80px; }
+#kb { left: 20px; }
+#jj { left: 65px; }
+#kids { left: 45px; }
+
+/********************* FITNESS & NUTRITION *****************/
+
+.fitness-nutrition {
+    position: relative;
+    top: 100px;
+
+}
+
+#fn-header { left: 530px;}
+#fn-list { left: 405px; }
+#fitness { left: 34px; }
+#nutrition { left: 66px; }
+
+/************************* APPAREL ************************/
+
+.apparel { position: relative; top: 190px; }
+
+#apparel-header { left: 610px;}
+#ap-list { left: 535px; }
+#gym-apparel-text { left: 46px; }
+
+/************************* FOOTER ************************/
+
+.footer { position: relative;
+          background-color: black;
+          height: 70px;
+          width: 1366px;
+          left: -110px;
+          text-align: center;
+}
+
+.footer > p { line-height: 68px; color: white; }
+
+#home-footer { top: -710px;}
