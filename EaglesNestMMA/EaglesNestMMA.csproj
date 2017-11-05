@@ -196,6 +196,7 @@
     <Content Include="Content\Images\hands.jpg" />
     <Content Include="Content\Images\hands2.png" />
     <Content Include="Content\Images\healthy-eating-diet.jpg" />
+    <Content Include="Content\Images\anselmo.jpg" />
     <Content Include="Content\Images\jiuJitsu.jpg" />
     <Content Include="Content\Images\karate.jpg" />
     <Content Include="Content\Images\karate2.png" />
@@ -204,6 +205,7 @@
     <Content Include="Content\Images\logo.png" />
     <Content Include="Content\Images\longSleeveTee.jpg" />
     <Content Include="Content\Images\mmaFighter.jpg" />
+    <Content Include="Content\Images\shannon.jpg" />
     <Content Include="Content\Images\slate.jpg" />
     <Content Include="Content\Images\strength.jpg" />
     <Content Include="Content\Images\tanBackground.jpg" />
