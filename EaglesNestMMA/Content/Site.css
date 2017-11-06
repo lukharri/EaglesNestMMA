@@ -13,10 +13,13 @@
 input, select, textarea { max-width: 280px;}
 
 .hr-dashed-red { border-bottom: dashed 1px #A5050F; width: 500px; position: relative; }
-.hr-dashed-red-med { border-bottom: dashed 1px #A5050F; width: 500px; position: relative; }
+.hr-dashed-red-med { border-bottom: dashed 1px #A5050F; width: 600px; position: relative; }
+.hr-dashed-red-med-long { border-bottom: dashed 1px #A5050F; width: 750px; position: relative; }
 .hr-dashed-red-long { border-bottom: dashed 1px #A5050F; width: 1040px; position: relative; }
+.hr-dashed-red-900 { border-bottom: dashed 1px #A5050F; width: 900px; position: relative; }
 .section-text { font-size: 18px; color: rgb(51,51,51); }
 .section-header-text { color: #A5050F; font-size: 28px; }
+.classes-text { font-size: 16px; color: rgb(102, 102, 102); }
 
 .contents {
     background-image: url(/Content/Images/tanBackground.jpg); position: relative; 
@@ -24,7 +27,7 @@ input, select, textarea { max-width: 280px;}
 
 .banner {     
     background: url(/Content/Images/blackWaves.jpg) center top;  
-    position: relative; height: 140px; width: 1371px; right: 115px; margin-top: -20px; margin-bottom: -20px; }
+    position: relative; height: 140px; width: 1371px; right: 115px; margin-top: -20px; }
 
 .banner-text { text-align: center; position: relative; top: 50px; color: white; font-size: 42px; font-weight: bold;
 }
@@ -135,7 +138,7 @@ input, select, textarea { max-width: 280px;}
 
 
 /*******************************************   ABOUT PAGE   *****************************************************/
-#about-contents { height: 1430px; }
+#about-contents { height: 1430px; margin-top: -20px; }
 #about-intro { position: relative; top: 40px;}
 #about-text { text-align: center; }
 .about-coach-img { height: 300px; width: 300px; border-radius: 150px; }
@@ -149,3 +152,21 @@ input, select, textarea { max-width: 280px;}
 .shannon-img { position: relative; top: -230px; left: 180px;}
 #shannon-name { position: relative; text-align: right; right: 160px; }
 #shannon-summary { position: relative; text-align: right; right: 160px; }
+
+
+/*******************************************   CLASSES PAGE   **************************************************/
+#classes-contents { height: 2400px; }
+.martial-arts-list { top: 100px; }
+.classes-list-right { position: relative; left: 200px; list-style-type: none;}
+.classes-list-right > li > .hr-dashed-red { position: relative; right: 410px; }
+.classes-list-right > li > hr { position: relative; right: 210px; }
+.fitness-list {  top: 200px; }
+.classes-list-left { position: relative; top: 200px; text-align: right; right: 215px; list-style-type: none;}
+.classes-list-left > li { }
+.classes-list-left > li > .hr-dashed-red { left: 405px; }
+.classes-list-left > li > .hr-dashed-red-900 { left: 210px; } 
+.nutrition-list { top: 300px; }
+.kids-list { top: 400px; }
+.dropin-list { top: 500px; }
+#registration-btn { color: white; background: rgb(89, 89, 89); border-radius: 0px;}
+#registration-btn:hover { background: #A5050F; }
