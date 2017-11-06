@@ -37,5 +37,11 @@ namespace EaglesNestMMA.Controllers
             return View();
         }
 
+        public ActionResult Testimonials()
+        {
+            return View();
+        }
+
+
     }
 }
