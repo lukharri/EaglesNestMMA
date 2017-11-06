@@ -32,5 +32,10 @@ namespace EaglesNestMMA.Controllers
             return View();
         }
 
+        public ActionResult Schedule()
+        {
+            return View();
+        }
+
     }
 }
