@@ -232,3 +232,11 @@ input[type=text], input[type=tel], select, #contact-form-message, input[type=ema
 .fa-twitter { color: white; }
 .fa-youtube { color: white; }
 .fa-instagram { color: white; }
+
+
+/*****************************************   SPONSORS PAGE   **********************************************/
+#sponsors-contents {height: 1000px; }
+.sponsors-div { position: relative; left: 200px; top: 100px; }
+.sponsor-container { margin-bottom: 150px;}
+.sponsor-line-top { right: 430px; }
+.sponsor-line-bottom { right: 230px; }
