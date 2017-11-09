@@ -192,3 +192,43 @@ input, select, textarea { max-width: 280px;}
 .testimonials p { position: relative; left: 230px; }
 .testimonials .section-text { margin-bottom: -5px; color: black !important; }
 .testimonials .customer-name { margin-bottom: 50px; margin-top: -10px;}
+
+
+/*****************************************   CONTACT US PAGE   **********************************************/
+#contact-contents { height: 970px; margin-top: -10px }
+.contact-info-div { }
+.contact-info-list { list-style-type: none; position: relative; left: 250px; top: 80px; }
+.contact-info-list li { float: left; margin-right: 60px; }
+.black-circle {height: 100px; width: 100px; background-color: black; border-radius: 50px; }
+.contact-icon { }
+.contact-info-title { font-size: 20px; font-weight: bold; margin-top: 10px; position: relative; }
+.contact-info-container { position: relative; right: 80px; height: 88px; width: 280px; border: 2px solid lightgray; border-radius: 6px;}
+.contact-info-text { font-size: 18px; text-align: center; }
+
+#phone-title { }
+#address-title { left: 13px; }
+#email-title { left: 25px }
+
+#phone { margin-top: 30px; }
+#address { margin-top: 17px; }
+#email { margin-top: 17px; }
+
+input[type=text], input[type=tel], select, #contact-form-message, input[type=email] { padding: 12px 20px; margin: 8px 0; 
+                  border: 1px solid #ccc; border-radius: 6px; max-width: 600px;}
+#contact-form-submit { text-align: center; color: white; background-color: rgb(102,102,102); max-width: 600px; 
+                  border: none; border-radius: 6px; }
+#contaact-submit:hover { border: none; }
+.contact-form { position: relative; left: 195px; top: 150px; }
+#contact-map { position: relative; left: 870px; bottom: 317px; border-radius: 6px; border: 2px solid lightgray;}
+.social-media-div { position: relative; left: 870px; bottom: 307px; background-color: rgb(102, 102, 102); height: 35px; 
+       width: 300px; border-radius: 6px;}
+.social-media-list { list-style-type: none; }
+.social-media-list li { float: left; position: relative; right: 20px; }
+.social-media-icon { }
+.fa { padding: 20px; font-size: 25px; width: 40px; height: 40px; text-align: center; 
+      text-decoration: none; margin-right: 25px; margin-top: -15px;}
+.fa:hover { opacity: 0.7; color: lightgray; text-decoration: none; }
+.fa-facebook { color: white; }
+.fa-twitter { color: white; }
+.fa-youtube { color: white; }
+.fa-instagram { color: white; }
