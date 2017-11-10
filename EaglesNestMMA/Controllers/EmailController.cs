@@ -22,19 +22,33 @@ namespace EaglesNestMMA.Controllers
 
         // Called when user clicks the submit button and form values are passed into it
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<ActionResult> SendContactUsEmail(Contact contact)
         {
-            db.Contacts.Add(contact);
-            db.SaveChanges();
+            if (ModelState.IsValid)
+            {
+                db.Contacts.Add(contact);
+                db.SaveChanges();
 
-            var name = contact.Name;
-            var email = contact.Email;
-            var phone = contact.PhoneNumber;
-            var messages = contact.Message;
-            var x = await EmailStatus(name, email, messages, phone);
-            if (x == "sent")
-                ViewData["esent"] = "Your Message Has Been Sent";
-            return RedirectToAction("Index", "Home");
+                var name = contact.Name;
+                var email = contact.Email;
+                var phone = contact.PhoneNumber;
+                var messages = contact.Message;
+                var x = await EmailStatus(name, email, messages, phone);
+                if (x == "sent")
+                    ViewData["esent"] = "Your Message Has Been Sent";
+                return RedirectToAction("Index", "Home");
+            }else
+            {
+                var model = new Contact
+                {
+                    Name = contact.Name,
+                    PhoneNumber = contact.PhoneNumber,
+                    Email = contact.Email,
+                    Message = contact.Message
+                };
+                return View("Contact", model);
+            }
         }
 
 

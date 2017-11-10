@@ -10,7 +10,7 @@
 .dl-horizontal dt { white-space: normal;}
 
 /* Set width on the form input elements since they're 100% wide by default */
-input, select, textarea { max-width: 280px;}
+/*input, select, textarea { max-width: 280px;}*/
 
 .hr-dashed-red { border-bottom: dashed 1px #A5050F; width: 500px; position: relative; }
 .hr-dashed-red-med { border-bottom: dashed 1px #A5050F; width: 600px; position: relative; }
@@ -32,6 +32,8 @@ input, select, textarea { max-width: 280px;}
 .banner-text { text-align: center; position: relative; top: 50px; color: white; font-size: 42px; font-weight: bold;
 }
 
+.field-validation-error { color: red; }
+.input-validation-error { border: 1px solid red;}
 /*******************************************   HOME PAGE   *****************************************************/
 .home-link:hover { color: #A5050F; text-decoration: none; }
 
@@ -214,7 +216,7 @@ input, select, textarea { max-width: 280px;}
 #email { margin-top: 17px; }
 
 input[type=text], input[type=tel], select, #contact-form-message, input[type=email] { padding: 12px 20px; margin: 8px 0; 
-                  border: 1px solid #ccc; }
+                  /*border: 1px solid #ccc;*/ }
 #contact-form-name, #contact-form-email, #contact-form-phone { max-width: 600px; border-radius: 6px; }
 #contact-form-message { max-width: 600px; border-radius: 6px; }
 #contact-form-submit { text-align: center; color: white; background-color: rgb(102,102,102); max-width: 600px; 
