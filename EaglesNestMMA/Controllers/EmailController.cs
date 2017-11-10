@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EaglesNestMMA.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -11,6 +12,8 @@ namespace EaglesNestMMA.Controllers
 {
     public class EmailController : Controller
     {
+        private ApplicationDbContext db = new ApplicationDbContext();
+
         // GET: Email
         public ActionResult Index()
         {
@@ -18,12 +21,16 @@ namespace EaglesNestMMA.Controllers
         }
 
         // Called when user clicks the submit button and form values are passed into it
-        public async Task<ActionResult> SendContactUsEmail(FormCollection form)
+        [HttpPost]
+        public async Task<ActionResult> SendContactUsEmail(Contact contact)
         {
-            var name = form["sname"];
-            var email = form["semail"];
-            var messages = form["smessage"];
-            var phone = form["sphone"];
+            db.Contacts.Add(contact);
+            db.SaveChanges();
+
+            var name = contact.Name;
+            var email = contact.Email;
+            var phone = contact.PhoneNumber;
+            var messages = contact.Message;
             var x = await EmailStatus(name, email, messages, phone);
             if (x == "sent")
                 ViewData["esent"] = "Your Message Has Been Sent";
@@ -31,7 +38,7 @@ namespace EaglesNestMMA.Controllers
         }
 
 
-        private async Task<string> EmailStatus(string name, string email, string messages, string phone)
+        private async Task<string> EmailStatus(string name, string email, string messages, int phone)
         {
             var message = new MailMessage();
             message.To.Add(new MailAddress("etest1482@gmail.com"));    

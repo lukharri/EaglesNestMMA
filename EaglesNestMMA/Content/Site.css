@@ -214,7 +214,9 @@ input, select, textarea { max-width: 280px;}
 #email { margin-top: 17px; }
 
 input[type=text], input[type=tel], select, #contact-form-message, input[type=email] { padding: 12px 20px; margin: 8px 0; 
-                  border: 1px solid #ccc; border-radius: 6px; max-width: 600px;}
+                  border: 1px solid #ccc; }
+#contact-form-name, #contact-form-email, #contact-form-phone { max-width: 600px; border-radius: 6px; }
+#contact-form-message { max-width: 600px; border-radius: 6px; }
 #contact-form-submit { text-align: center; color: white; background-color: rgb(102,102,102); max-width: 600px; 
                   border: none; border-radius: 6px; }
 #contaact-submit:hover { border: none; }

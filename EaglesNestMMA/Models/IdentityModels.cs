@@ -29,5 +29,7 @@ namespace EaglesNestMMA.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<Contact> Contacts { get; set; }
     }
 }
