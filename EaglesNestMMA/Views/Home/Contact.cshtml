@@ -9,34 +9,34 @@
     <h3 class="banner-text">Contact Us</h3>
 </div>
 
-<div class="contents" id="contact-contents">
+<div class="contents contact-contents">
     <div class="contact-info-div">
         <ul class="contact-info-list">
             <li>
                 <div class="black-circle">
                     <img class="contact-icon" />
                 </div>
-                <p class="contact-info-title" id="phone-title">Telephone</p>
+                <p class="contact-info-title phone-title">Telephone</p>
                 <div class="contact-info-container">
-                    <p class="contact-info-text" id="phone">Phone: (806) 687-6671</p>
+                    <p class="contact-info-text phone">Phone: (806) 687-6671</p>
                 </div>
             </li>
             <li>
                 <div class="black-circle">
                     <img class="contact-icon" />
                 </div>
-                <p class="contact-info-title" id="address-title">Address</p>
+                <p class="contact-info-title address-title">Address</p>
                 <div class="contact-info-container">
-                    <p class="contact-info-text" id="address">5278 34th St. <br />Lubbock, TX 79424</p>
+                    <p class="contact-info-text address">5278 34th St. <br />Lubbock, TX 79424</p>
                 </div>
             </li>
             <li>
                 <div class="black-circle">
                     <img class="contact-icon" />
                 </div>
-                <p class="contact-info-title" id="email-title">Email</p>
+                <p class="contact-info-title email-title">Email</p>
                 <div class="contact-info-container">
-                    <p class="contact-info-text" id="email">eaglesnest<br />mma@gmail.com</p>
+                    <p class="contact-info-text email">eaglesnest<br />mma@gmail.com</p>
                 </div>
             </li>
         </ul>
@@ -49,54 +49,31 @@
         <div class="contact-form">
             <div class="form-group col-lg-10">
                 @Html.LabelFor(model => model.Name)
-                @Html.TextBoxFor(model => model.Name, new { name = "sname", type = "text", @class = "form-control contact-input", id = "contact-form-name" })
+                @Html.TextBoxFor(model => model.Name, new { name = "sname", type = "text", @class = "form-control contact-input contact-form-name" })
                 @Html.ValidationMessageFor(model => model.Name)
             </div>
             <div class="form-group col-lg-10">
                 @Html.LabelFor(model => model.Email)
-                @Html.TextBoxFor(model => model.Email, new { name = "semail", type = "email", @class = "form-control contact-input", id = "contact-form-email" })
+                @Html.TextBoxFor(model => model.Email, new { name = "semail", type = "email", @class = "form-control contact-input contact-form-email" })
                 @Html.ValidationMessageFor(model => model.Email)
             </div>
             <div class="form-group col-lg-10">
                 @Html.LabelFor(model => model.PhoneNumber)
-                @Html.TextBoxFor(model => model.PhoneNumber, new { name = "sphone", type = "tel", @class = "form-control contact-input", id = "contact-form-name" })
+                @Html.TextBoxFor(model => model.PhoneNumber, new { name = "sphone", type = "tel", @class = "form-control contact-input contact-form-phone" })
                 @Html.ValidationMessageFor(model => model.PhoneNumber)
             </div>
             <div class="form-group col-lg-10">
                 @Html.LabelFor(model => model.Message)
-                @Html.TextAreaFor(model => model.Message, new { name = "smessage", type = "text", @class = "form-control contact-input", id = "contact-form-message", rows = "5", })
+                @Html.TextAreaFor(model => model.Message, new { name = "smessage", type = "text", @class = "form-control contact-input contact-form-message", rows = "5" })
                 @Html.ValidationMessageFor(model => model.Message)
             </div>
             <div class="form-group col-lg-10">
-                <button type="submit" onclick="this.form.submit()" id="contact-form-submit" class="btn btn-primary form-control">Submit</button>
+                <button type="submit" onclick="this.form.submit()" class="btn btn-primary form-control contact-form-submit">Submit</button>
             </div>
         </div>
-        @*<div class="contact-form">
-                <form id="contact" name="contact-form">
-                    <div class="form-group col-lg-10">
-                        <label for="">Name</label>
-                        <input type="text" name="sname" class="form-control contact-input" id="contact-form-name" required>
-                    </div>
-                    <div class="form-group col-lg-10">
-                        <label for="">Email</label>
-                        <input type="email" name="semail" class="form-control contact-input" id="contact-form-email" required>
-                    </div>
-                    <div class="form-group col-lg-10">
-                        <label for="Phone">Phone</label>
-                        <input type="tel" name="sphone" class="form-control contact-input" id="contact-form-phone" required>
-                    </div>
-                    <div class="form-group col-lg-10">
-                        <label for="Message">Your Message</label>
-                        <textarea type="text" name="smessage" class="form-control contact-input" id="contact-form-message" rows="5" required></textarea>
-                    </div>
-                    <div class="form-group col-lg-10">
-                        <button type="submit" onclick="this.form.submit()" id="contact-form-submit" class="btn btn-primary form-control">Submit</button>
-                    </div>
-                </form>
-            </div>*@
     }
 
-    <iframe id="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.6059780703026!2d-101.92810488540289!3d33.56361235076976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fe72da81be7d61%3A0x69852de7c804758!2s5278+34th+St%2C+Lubbock%2C+TX+79407!5e0!3m2!1sen!2sus!4v1510243728371" width="300" height="392" frameborder="0" allowfullscreen></iframe>
+    <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.6059780703026!2d-101.92810488540289!3d33.56361235076976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fe72da81be7d61%3A0x69852de7c804758!2s5278+34th+St%2C+Lubbock%2C+TX+79407!5e0!3m2!1sen!2sus!4v1510243728371" width="300" height="392" frameborder="0" allowfullscreen></iframe>
 
     <div class="social-media-div">
         <ul class="social-media-list">

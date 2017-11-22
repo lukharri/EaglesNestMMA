@@ -1,0 +1,54 @@
+﻿/*******************************************   HOME PAGE   *****************************************************/
+.home-link:hover { color: #A5050F; text-decoration: none; }
+
+/******************************* HERO ****************************************/
+.hero { opacity: .95; height: 450px; position: relative; right: 110px; }
+.hero-text { position: absolute; left: 250px; top: 60px; color: white; font-size: 75px; text-align: center; font-weight: bold; }
+.hero .hands { height: 450px; width: 1366px; }
+
+
+/************************** SECTION 1 ****************************************/
+.section-one { background-image: url(/Content/Images/blackWaves.jpg); position: relative; height: 270px; width: 1366px;
+    right: 110px; margin-bottom: -20px; }
+.section-one-ul { list-style-type: none; position: relative; top: 35px; left: 150px; }
+.welcome-text { color: white; font-size: 16px;}
+.section-header { color: #A5050F; font-size: 28px; position: relative; left: 570px; top: 70px;}
+.section-one-ul li .welcome-title { color: #A5050F; font-size: 28px; }
+.section-one-ul .home-s2-line { margin-top: -10px; margin-bottom: 20px; border-bottom: dashed 1px #A5050F; width: 500px; }
+
+/************************** SECTION 2 ****************************************/
+.section-two { background-image: url(/Content/Images/tanBackground.jpg); position: relative; height: 1340px; 
+               width: 1360px; left: -110px; margin-bottom: -11px; }
+.red-circle { height: 195px; width: 195px; border: solid 1px #A5050F; border-radius: 97.5px; padding: 6.95px; }
+.circle-image { height: 180px; width: 180px; border: solid 15px #A5050F; border-radius: 90px; }
+.inner-img { height: 150px; width: 150px; border-radius: 75px; }
+.content-list { list-style-type: none; position: relative; left: 110px; top: 85px;}
+.content-list li { float: left; margin-right: 90px; }
+.service-text { font-size: 18px; color: rgb(51,51,51); }
+.section-two .s2-hr2 { position: relative; top: 110px;   }
+
+
+/************************** MARTIAL ARTS *****************/
+.content-list li .MMA { left: 80px; position: relative; top: 15px; }
+.content-list li .kb { left: 20px; position: relative; top: 15px; }
+.content-list li .jj { left: 65px; position: relative; top: 15px; }
+.content-list li .kids { left: 45px; position: relative; top: 15px; }
+.martial-arts .martial-arts-red-line { position: relative; top: 65px; }
+
+
+/********************* FITNESS & NUTRITION *****************/
+.fitness-nutrition { position: relative; top: 100px; }
+.fitness-nutrition .fn-red-line { position: relative; top: 65px; }
+.fitness-nutrition .fn-list { left: 405px; }
+.content-list li .fitness { left: 34px; position: relative; top: 15px; }
+.content-list li .nutrition { left: 66px; position: relative; top: 15px; }
+.fitness-nutrition .fn-bottom-red-line { position: relative; top: 110px; }
+
+
+/************************* APPAREL ************************/
+.apparel { position: relative; top: 190px; }
+.apparel .apparel-red-line { position: relative; top: 65px; }
+.apparel .apparel-header { left: 610px; }
+.apparel .ap-list { left: 535px; }
+.content-list li .gym-apparel-text { left: 46px; position: relative; top: 15px; }
+.apparel .apparel-bottom-red-line { position: relative; top: 110px; }

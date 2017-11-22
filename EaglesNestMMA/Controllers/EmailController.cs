@@ -25,6 +25,7 @@ namespace EaglesNestMMA.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> SendContactUsEmail(Contact contact)
         {
+        
             if (ModelState.IsValid)
             {
                 db.Contacts.Add(contact);
@@ -38,17 +39,17 @@ namespace EaglesNestMMA.Controllers
                 if (x == "sent")
                     ViewData["esent"] = "Your Message Has Been Sent";
                 return RedirectToAction("Index", "Home");
-            }else
-            {
-                var model = new Contact
-                {
-                    Name = contact.Name,
-                    PhoneNumber = contact.PhoneNumber,
-                    Email = contact.Email,
-                    Message = contact.Message
-                };
-                return View("Contact", model);
             }
+
+            var model = new Contact
+            {
+                Name = contact.Name,
+                PhoneNumber = contact.PhoneNumber,
+                Email = contact.Email,
+                Message = contact.Message
+            };
+            return View("Contact", model);
+
         }
 
 

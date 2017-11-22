@@ -1,0 +1,8 @@
+﻿/*****************************************   TESTIMONIALS PAGE   **********************************************/
+.testimonials-contents { height: 800px; }
+.customer-name { color: rgb(102, 102, 102); }
+.testimonials { position: relative; top: 75px; }
+.testimonials p { position: relative; left: 230px; }
+.testimonials .section-text { margin-bottom: -5px; color: black !important; }
+.testimonials .customer-name { margin-bottom: 50px; margin-top: -10px;}
+

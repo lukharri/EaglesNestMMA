@@ -26,7 +26,15 @@ namespace EaglesNestMMA
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/About.css",
+                      "~/Content/Classes.css",
+                      "~/Content/Contact.css",
+                      "~/Content/Home.css",
+                      "~/Content/Login.css",
+                      "~/Content/Schedule.css",
+                      "~/Content/Sponsors.css",
+                      "~/Content/Testimonials.css"));
         }
     }
 }

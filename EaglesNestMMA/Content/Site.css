@@ -23,7 +23,7 @@
 
 .contents {
     background-image: url(/Content/Images/tanBackground.jpg); position: relative; 
-    width: 1360px; left: -110px; margin-bottom: -11px }
+    width: 1360px; left: -110px; margin-bottom: -11px; }
 
 .banner {     
     background: url(/Content/Images/blackWaves.jpg) center top;  
@@ -34,12 +34,10 @@
 
 .field-validation-error { color: red; }
 .input-validation-error { border: 1px solid red;}
-/*******************************************   HOME PAGE   *****************************************************/
-.home-link:hover { color: #A5050F; text-decoration: none; }
 
-/************************** HEADER ********************************/
-/******************************************************************/
 
+/***********************************************  HEADER  *****************************************************/
+/**************************************************************************************************************/
 .navbar { margin-bottom: 0px; border-radius: 0px; }
 .navbar-inverse .navbar-nav > li > a { color: white; }
 .navbar-inverse .navbar-nav > li > a:hover { color: black; }
@@ -77,170 +75,11 @@
 .dropdown:hover .dropdown-content { display: block; }
 
 
-/******************************* HERO ****************************************/
-.hero { opacity: .95; height: 450px; position: relative; right: 110px; }
-.hero-text { position: absolute; left: 250px; top: 60px; color: white; font-size: 75px; text-align: center; font-weight: bold; }
-#hands { height: 450px; width: 1366px; }
+/***********************************************  FOOTER  *****************************************************/
+/**************************************************************************************************************/
 
-
-/************************** SECTION 1 ****************************************/
-.section-one { background-image: url(/Content/Images/blackWaves.jpg); position: relative; height: 270px; width: 1366px;
-    right: 110px; margin-bottom: -20px; }
-.section-one-ul { list-style-type: none; position: relative; top: 35px; left: 150px; }
-.welcome-text { color: white; font-size: 16px;}
-.section-header { color: #A5050F; font-size: 28px; position: relative; left: 570px; top: 70px;}
-#home-s2-line { margin-top: -10px; margin-bottom: 20px; border-bottom: dashed 1px #A5050F; width: 500px;}
-#welcome-title { color: #A5050F; font-size: 28px; }
-
-
-/************************** SECTION 2 ****************************************/
-.section-two { background-image: url(/Content/Images/tanBackground.jpg); position: relative; height: 1340px; 
-               width: 1360px; left: -110px; margin-bottom: -11px; }
-.red-circle { height: 195px; width: 195px; border: solid 1px #A5050F; border-radius: 97.5px; padding: 6.95px; }
-.circle-image { height: 180px; width: 180px; border: solid 15px #A5050F; border-radius: 90px; }
-#inner-img { height: 150px; width: 150px; border-radius: 75px; }
-.content-list { list-style-type: none; position: relative; left: 110px; top: 85px;}
-.content-list li { float: left; margin-right: 90px; }
-.service-text { font-size: 18px; color: rgb(51,51,51); }
-#s2-hr2 { position: relative; top: 110px;   }
-
-
-/************************** MARTIAL ARTS *****************/
-#MMA { left: 80px; position: relative; top: 15px; }
-#kb { left: 20px; position: relative; top: 15px; }
-#jj { left: 65px; position: relative; top: 15px; }
-#kids { left: 45px; position: relative; top: 15px; }
-#martial-arts-red-line {position: relative; top: 65px; }
-
-
-/********************* FITNESS & NUTRITION *****************/
-.fitness-nutrition { position: relative; top: 100px; }
-#fn-header { left: 530px;}
-#fn-list { left: 405px; }
-#fitness { left: 34px; position: relative; top: 15px; }
-#nutrition { left: 66px; position: relative; top: 15px; }
-#fn-red-line { position: relative; top: 65px; }
-#fn-bottom-red-line { position: relative; top: 110px; }
-
-
-/************************* APPAREL ************************/
-.apparel { position: relative; top: 190px; }
-#apparel-red-line { position: relative; top: 65px; }
-#apparel-header { left: 610px;}
-#ap-list { left: 535px; }
-#gym-apparel-text { left: 46px; position: relative; top: 15px; }
-#apparel-bottom-red-line { position: relative; top: 110px; }
-
-
-/************************* FOOTER ************************/
 .footer { background-color: black; height: 70px; text-align: center; position: absolute; 
           left: 0; width: 100%; margin-top: 11px; }
 .footer > p { line-height: 68px; color: white; text-align: center; }
 #home-footer { top: -710px;}
 
-
-/*******************************************   ABOUT PAGE   *****************************************************/
-#about-contents { height: 1430px; margin-top: -20px; }
-#about-intro { position: relative; top: 40px;}
-#about-text { text-align: center; }
-.about-coach-img { height: 300px; width: 300px; border-radius: 150px; }
-.anselmo-div { position: relative; left: 180px; top: 120px; height: 410px; }
-.anselmo-img { position: relative; left: 730px; top: -300px;}
-.anselmo-underline { position: relative; right: 430px}
-.anselmo-underline-bottom { top: -260px; right: 160px; }
-.shannon-div { position: relative; top: 300px; height: 400px; }
-.shannon-underline { position: relative; left: 265px; }
-.shannon-underline-bottom { position: relative; top: -200px; }
-.shannon-img { position: relative; top: -230px; left: 180px;}
-#shannon-name { position: relative; text-align: right; right: 160px; }
-#shannon-summary { position: relative; text-align: right; right: 160px; }
-
-
-/*******************************************   CLASSES PAGE   **************************************************/
-#classes-contents { height: 2400px; }
-.martial-arts-list { top: 100px; }
-.classes-list-right { position: relative; left: 200px; list-style-type: none;}
-.classes-list-right > li > .hr-dashed-red { position: relative; right: 410px; }
-.classes-list-right > li > hr { position: relative; right: 210px; }
-.fitness-list {  top: 200px; }
-.classes-list-left { position: relative; top: 200px; text-align: right; right: 215px; list-style-type: none;}
-.classes-list-left > li { }
-.classes-list-left > li > .hr-dashed-red { left: 405px; }
-.classes-list-left > li > .hr-dashed-red-900 { left: 210px; } 
-.nutrition-list { top: 300px; }
-.kids-list { top: 400px; }
-.dropin-list { top: 500px; }
-#registration-btn { color: white; background: rgb(89, 89, 89); border-radius: 0px;}
-#registration-btn:hover { background: #A5050F; }
-#MMA-class {}
-
-
-/*****************************************   SCHEDULE PAGE   **************************************************/
-#schedule-contents { height: 1500px; }
-#youth-section { margin-top: 100px; }
-.schedule-div { position: relative; top: 100px; }
-.schedule { position: relative; left: 230px; width: 900px; }
-.schedule-div > p { text-align: center; }
-.schedule tr th { text-align: center; border: 1px solid black; padding: 10px; background-color: black; 
-                  color: #A5050F; font-size: 16px; font-weight: bold; }
-.schedule tr td { text-align: center; border: 1px solid black; padding: 10px; background: white; 
-                  font-size: 16px; font-weight: bold; }
-
-
-/*****************************************   TESTIMONIALS PAGE   **********************************************/
-#testimonials-contents { height: 800px; }
-.customer-name { color: rgb(102, 102, 102); }
-.testimonials { position: relative; top: 75px; }
-.testimonials p { position: relative; left: 230px; }
-.testimonials .section-text { margin-bottom: -5px; color: black !important; }
-.testimonials .customer-name { margin-bottom: 50px; margin-top: -10px;}
-
-
-/*****************************************   CONTACT US PAGE   **********************************************/
-#contact-contents { height: 970px; margin-top: -10px }
-.contact-info-div { }
-.contact-info-list { list-style-type: none; position: relative; left: 250px; top: 80px; }
-.contact-info-list li { float: left; margin-right: 60px; }
-.black-circle {height: 100px; width: 100px; background-color: black; border-radius: 50px; }
-.contact-icon { }
-.contact-info-title { font-size: 20px; font-weight: bold; margin-top: 10px; position: relative; }
-.contact-info-container { position: relative; right: 80px; height: 88px; width: 280px; border: 2px solid lightgray; border-radius: 6px;}
-.contact-info-text { font-size: 18px; text-align: center; }
-
-#phone-title { }
-#address-title { left: 13px; }
-#email-title { left: 25px }
-
-#phone { margin-top: 30px; }
-#address { margin-top: 17px; }
-#email { margin-top: 17px; }
-
-input[type=text], input[type=tel], select, #contact-form-message, input[type=email] { padding: 12px 20px; margin: 8px 0; 
-                  /*border: 1px solid #ccc;*/ }
-#contact-form-name, #contact-form-email, #contact-form-phone { max-width: 600px; border-radius: 6px; }
-#contact-form-message { max-width: 600px; border-radius: 6px; }
-#contact-form-submit { text-align: center; color: white; background-color: rgb(102,102,102); max-width: 600px; 
-                  border: none; border-radius: 6px; }
-#contaact-submit:hover { border: none; }
-.contact-form { position: relative; left: 195px; top: 150px; }
-#contact-map { position: relative; left: 870px; bottom: 317px; border-radius: 6px; border: 2px solid lightgray;}
-.social-media-div { position: relative; left: 870px; bottom: 307px; background-color: rgb(102, 102, 102); height: 35px; 
-       width: 300px; border-radius: 6px;}
-.social-media-list { list-style-type: none; }
-.social-media-list li { float: left; position: relative; right: 20px; }
-.social-media-icon { }
-.fa { padding: 20px; font-size: 25px; width: 40px; height: 40px; text-align: center; 
-      text-decoration: none; margin-right: 25px; margin-top: -15px;}
-.fa:hover { opacity: 0.7; color: lightgray; text-decoration: none; }
-.fa-facebook { color: white; }
-.fa-twitter { color: white; }
-.fa-youtube { color: white; }
-.fa-instagram { color: white; }
-
-
-/*****************************************   SPONSORS PAGE   **********************************************/
-#sponsors-contents {height: 1000px; }
-.sponsors-div { position: relative; left: 200px; top: 100px; }
-.sponsor-container { margin-bottom: 150px;}
-.sponsor-line-top { right: 430px; }
-.sponsor-line-bottom { right: 230px; }

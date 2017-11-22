@@ -184,8 +184,12 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\About.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Classes.css" />
+    <Content Include="Content\Contact.css" />
+    <Content Include="Content\Home.css" />
     <Content Include="Content\Images\bjj.jpg" />
     <Content Include="Content\Images\blackWaves.jpg" />
     <Content Include="Content\Images\boxer.jpg" />
@@ -207,7 +211,9 @@
     <Content Include="Content\Images\kidKarate.jpg" />
     <Content Include="Content\Images\logo.png" />
     <Content Include="Content\Images\longSleeveTee.jpg" />
+    <Content Include="Content\Images\map-marker.png" />
     <Content Include="Content\Images\mmaFighter.jpg" />
+    <Content Include="Content\Images\phone-icon.jpg" />
     <Content Include="Content\Images\shannon.jpg" />
     <Content Include="Content\Images\slate.jpg" />
     <Content Include="Content\Images\strength.jpg" />
@@ -217,6 +223,10 @@
     <Content Include="Content\Images\yoga2.jpg" />
     <Content Include="Content\Images\yoga3.jpg" />
     <Content Include="Content\Images\yogasun.jpg" />
+    <Content Include="Content\Login.css" />
+    <Content Include="Content\Schedule.css" />
+    <Content Include="Content\Sponsors.css" />
+    <Content Include="Content\Testimonials.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -237,7 +247,9 @@
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\Site.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

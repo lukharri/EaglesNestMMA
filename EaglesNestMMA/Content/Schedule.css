@@ -1,0 +1,10 @@
+﻿/*****************************************   SCHEDULE PAGE   **************************************************/
+.schedule-contents { height: 1500px; }
+.schedule-contents .youth-section { margin-top: 100px; }
+.schedule-div { position: relative; top: 100px; }
+.schedule { position: relative; left: 230px; width: 900px; }
+.schedule-div > p { text-align: center; }
+.schedule tr th { text-align: center; border: 1px solid black; padding: 10px; background-color: black; 
+                  color: #A5050F; font-size: 16px; font-weight: bold; }
+.schedule tr td { text-align: center; border: 1px solid black; padding: 10px; background: white; 
+                  font-size: 16px; font-weight: bold; }

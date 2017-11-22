@@ -1,0 +1,16 @@
+﻿/*******************************************   CLASSES PAGE   **************************************************/
+.classes-contents { height: 2400px; }
+.martial-arts-list { top: 100px; }
+.classes-list-right { position: relative; left: 200px; list-style-type: none;}
+.classes-list-right > li > .hr-dashed-red { position: relative; right: 410px; }
+.classes-list-right > li > hr { position: relative; right: 210px; }
+.fitness-list {  top: 200px; }
+.classes-list-left { position: relative; top: 200px; text-align: right; right: 215px; list-style-type: none;}
+.classes-list-left > li { }
+.classes-list-left > li > .hr-dashed-red { left: 405px; }
+.classes-list-left > li > .hr-dashed-red-900 { left: 210px; } 
+.nutrition-list { top: 300px; }
+.kids-list { top: 400px; }
+.dropin-list { top: 500px; }
+.dropin-list li .registration-btn { color: white; background: rgb(89, 89, 89); border-radius: 0px;}
+.dropin-list li .registration-btn:hover { background: #A5050F; }

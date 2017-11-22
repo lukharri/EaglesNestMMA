@@ -1,0 +1,15 @@
+﻿/*******************************************   ABOUT PAGE   *****************************************************/
+.about-contents { height: 1430px; margin-top: -20px; }
+.about-intro { position: relative; top: 40px;}
+.about-contents .about-intro .about-text { text-align: center; }
+.about-coach-img { height: 300px; width: 300px; border-radius: 150px; }
+.anselmo-div { position: relative; left: 180px; top: 120px; height: 410px; }
+.anselmo-img { position: relative; left: 730px; top: -300px;}
+.anselmo-underline { position: relative; right: 430px}
+.anselmo-underline-bottom { top: -260px; right: 160px; }
+.shannon-div { position: relative; top: 300px; height: 400px; }
+.shannon-underline { position: relative; left: 265px; }
+.shannon-underline-bottom { position: relative; top: -200px; }
+.shannon-img { position: relative; top: -230px; left: 180px;}
+.contents .shannon-div .shannon-name { position: relative; text-align: right; right: 160px; }
+.contents .shannon-div .shannon-summary { position: relative; text-align: right; right: 160px; }
